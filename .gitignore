@@ -1,0 +1,24 @@
+# Data — never commit raw MRI data
+data/nifti/
+data/dicom/
+data/png/
+*.nii
+*.nii.gz
+*.dcm
+
+# Model weights
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
